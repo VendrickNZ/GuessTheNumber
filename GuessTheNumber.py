@@ -35,7 +35,7 @@ def guess_the_number():
             print(f"Congratulations {str(guessed_number)} was correct!")
             game_over = True
         elif chances <= 1:
-            print("No chances remaining \nGame Over")
+            print(f"No chances remaining \nThe number was {chosen_number} \nGame Over")
             game_over = True
         else:
             chances -= 1
